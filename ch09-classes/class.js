@@ -47,7 +47,7 @@ class Span extends Range {
 }
 
 // 以下はRangeオブジェクトを使った例
-let range = new Range(0, -10); // startからendまでの範囲を表すオブジェクト
+let range = new Range(0, -3); // startからendまでの範囲を表すオブジェクト
 let span = new Span(-1, -3); // startから始まる長さlengthの範囲を表すオブジェクト
 
 
