@@ -1,5 +1,3 @@
-
-
 Range.prototype = {
     constructor: Range,
 }
