@@ -7,9 +7,7 @@ import (
 
 func doWork(id int) {
 	fmt.Printf("Work %d started at %s \n", id, time.Now().Format("15:04:05"))
-
 	time.Sleep(1 * time.Second) // １秒間スリープし、計算作業をシミュレートする
-
 	fmt.Printf("Work %d finished at %s\n", id, time.Now().Format("15:04:05"))
 }
 
