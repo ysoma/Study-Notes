@@ -1,16 +1,15 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
 func main() {
 	count := 5
-	go countdown(&count) // アドレスで渡す、Cみたいだ
+	go countdown(&count) // アドレスで渡す
 	for count > 0 {
 		time.Sleep(500 * time.Millisecond)
-		fmt.Println(count)
+		println(count)
 	}
 }
 
