@@ -4,4 +4,12 @@
 // Chapter 9. Class
 // ------------------------------------------------
 
-// 9.3.2 ゲッターメソッドやセッターメソッドなど、他のメソッド形式
+// 9.3.3
+
+class Buffer {
+    #size = 0;
+    capacity = 4096;
+    buffer = new Uint8Array(this.capacity);
+
+    get size() { return this.#size; };
+}
